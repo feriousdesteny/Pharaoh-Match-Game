@@ -7,7 +7,8 @@
 body {
   height: 100vh;
   display: flex;
-  background: #060AB2;
+  background-image: url("https://i.pinimg.com/originals/40/f9/9d/40f99d95d3ed1b51f96b7ffe79dd1f22.png");
+  background-size: cover;
 }
 .topnav {
   overflow: hidden;
@@ -69,10 +70,12 @@ body {
   padding: 20px;
   position: absolute;
   border-radius: 5px;
-  background: #1C7CCC;
+  background-image: url("https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQHSQdgCwhR64xyJS1gN_iZa4_PkzZwueKRuo_Usp_B5wFPp2xepUxF1boN3KNkJqDrI6A&usqp=CAU");
   backface-visibility: hidden;
+  border-radius: 10%;
 }
 
 .front-face {
   transform: rotateY(180deg);
+  border-radius: 10%;
 }
